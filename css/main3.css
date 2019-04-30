@@ -1,0 +1,38 @@
+.image-container img{border: 2px solid #c3c3c3;width: initial;height: auto;max-width: 100%;}
+.profile-data h3 {font-size: 22px;    margin-bottom: 20px;}
+.profile-data p span {    display: block;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 15px;    color: #08758c;
+    font-size: 16px;}
+
+    body {
+        background: #adadad;
+        background: -moz-linear-gradient(left, #adadad 0%, #64aede 100%);
+        background: -webkit-linear-gradient(left, #adadad 0%,#64aede 100%);
+        background: linear-gradient(to right, #d3d3d3 0%,#64aede 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007189', endColorstr='#bad5d6',GradientType=1 );
+    }
+
+    @media only screen and (max-width:768px){
+        .profile-data {text-align: center}
+      }
+
+
+      .card {
+        background-color: #f1f1f1;
+        padding: 20px;
+        box-shadow: 9px 9px 14px 9px #6f6f6f;
+        border: 4px solid #6f6f6f;
+        border-radius: 0px;
+
+    }
+
+
+
+    .panel-default>.panel-heading {
+        color: #fff;
+        background-color: #1d8095;
+        border-color: #ddd;
+    }
+    .panel-title a i{padding-right: 5px;}
